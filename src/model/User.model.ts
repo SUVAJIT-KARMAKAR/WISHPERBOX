@@ -1,3 +1,4 @@
+// src > model > UserSchema.ts
 // Importing the required modules int the workspace 
 import mongoose, { Schema, Document } from "mongoose";
 
