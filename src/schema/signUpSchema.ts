@@ -19,9 +19,9 @@ export const passwordValidation = z
     .string()
     .min(6, { message : "Password must be atleast 6 characters long" })
 
-// Schema validation for signUp page 
+// Schema validation for signUp
 export const signUpSchema = z.object({
     username : usernameValidation,
     email : emailValidation,
     password : passwordValidation
-})
+});
